@@ -20,6 +20,11 @@
 //     return rna;
 // }
 
+// Menggunakan Split()
+function DNAtoRNA(dna) {
+  return dna.split("T").join("U");
+}
+
 // menggunakan map()
 // function DNAtoRNA(dna) {
 //   return dna
@@ -36,7 +41,7 @@
 
 // Menggunakan replace()
 // const DNAtoRNA = (dna) => dna.replace(/T/g, "U");
-const DNAtoRNA = (dna) => dna.replaceAll("T", "U");
+// const DNAtoRNA = (dna) => dna.replaceAll("T", "U");
 
 // Short Code
 // const DNAtoRNA = (dna) => {
